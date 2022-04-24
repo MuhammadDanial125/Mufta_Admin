@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mufta_Admin</string>
+    <string-array name="website_names">
+        <item>Udemy</item>
+        <item>Udacity</item>
+        <item>Coursera</item>
+        <item>edX</item>
+        <item>Datacamp</item>
+    </string-array>
+    <string-array name="categories">
+        <item>food</item>
+        <item>lifestyle</item>
+        <item>clothing</item>
+        <item>event</item>
+        <item>travelling</item>
+    </string-array>
+    <string-array name="Cities">
+        <item>Nation Wide</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Islamabad</item>
+        <item>Quetta</item>
+        <item>Peshawar</item>
+        <item>Gujrat</item>
+        <item>Gujranwala</item>
+        <item>Sialkot</item>
+
+    </string-array>
+</resources>
