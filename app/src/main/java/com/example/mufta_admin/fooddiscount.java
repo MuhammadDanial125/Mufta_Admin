@@ -39,7 +39,7 @@ public class fooddiscount extends AppCompatActivity {
     Button imagebutton, savebtn;
     FirebaseAuth auth;
     Uri imageuri;
-    Spinner spin,spinnerCities;
+    Spinner spin, spinnerCities;
 
     ProgressDialog dialog;
     FirebaseStorage storage;
@@ -122,9 +122,9 @@ public class fooddiscount extends AppCompatActivity {
                                             public void onSuccess(Void aVoid) {
                                                 dialog.dismiss();
                                                 Toast.makeText(fooddiscount.this, "Details Saved", Toast.LENGTH_SHORT).show();
-                                            et1.getText().clear();
-                                            et2.getText().clear();
-                                            et10.getText().clear();
+                                                et1.getText().clear();
+                                                et2.getText().clear();
+                                                et10.getText().clear();
                                             }
                                         });
                             }
